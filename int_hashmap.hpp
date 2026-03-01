@@ -62,21 +62,6 @@ public:
         }
         return false;
     }
-
-    // vector<pair<K, V>> get_pairs() const
-    // {
-    //     vector<pair<K, V>> pairs;
-    //     for (const auto &bucket : table)
-    //     {
-    //         for (const auto &p : bucket)
-    //         {
-    //             pairs.push_back(p);
-    //         }
-    //     }
-    //     return pairs;
-    // }
-
-    // int get_size() const { return size; }
 };
 
-#endif // INT_HASHMAP_HPP
+#endif 
